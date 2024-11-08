@@ -1,8 +1,13 @@
 在github搭建越狱软件源
+
 准备工作
+
 1.拥有一个github账号
+
 2.已经装载了filza文件管理器，终端（如newterm3或MTerminal）
+
 3.已经准备好了deb插件文件
+
 4.在sileo已经安装了这几个插件
 - dpkg - 1.22.6
 - dpkg-dev - 1.22.6
@@ -11,7 +16,9 @@
 - libdpkg-perl - 1.22.6
 
 操作流程
+
 1.在github创建一个新的存储库，名为xxxxx.github.io（xxxxx可以是你的名字）
+
 2.添加一个名为Release的文件，这里面包含的软件源的基本信息，下面是一个示例
 
 Origin: 🇨🇳lans233's repo
@@ -29,9 +36,13 @@ Description: QQ交流群157289939，欢迎进群！
 ，即可在这个文件夹里面生成一个名为Packages的文件
 
 4.回到刚刚建的github存储库，将刚刚生成的Packages文件放进去
+
 5.在存储库新建一个名为debs的文件夹，将所有的插件文件放入
 
 github 发布网页
+
 1.上面的项目创建好后，在网页访问 xxxxx.gitbug.io 会提示 404，页面中有个蓝色的链接，点击后 github 官方会有指导教程
+
 2.项目下需有 index.html 作为项目访问默认页
+
 结语：这个时候，你就已经完成搭建了，不过还有一些可以更完善这个源的方法，这个我们以后再讲
